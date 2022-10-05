@@ -18,6 +18,7 @@ Avant de commencer le TP on va faire un **Fork** du repo GiHub comme ça on aura
 
 ## 2 - Activer le worflow existant
 Apres, on va cliquer sur l'onglet **Actions**.
+
 GitHub va détecter automatiquement le dossier `.github/workflows` et nous proposer d'activer les workflow existants dans notre repo. 
 
 (Biensur, On va pas dire non à ça 😎)
@@ -25,7 +26,7 @@ GitHub va détecter automatiquement le dossier `.github/workflows` et nous propo
 ![](./readmeContent/02.png)
 
 📝 La definition de notre CI est dans le fichier 
-[`.github/workflows/ci.yml`](https://github.com/ahdbk/BoosterCamp-tp-spring/blob/main/.github/workflows/ci.yml)
+`.github/workflows/ci.yml`
 
 ## 3 - Ajouter une étape de Tests
 Pas besoin de cloner le repo en local, on peut faire toute nos modifs dans l'interface GitHub. (Apres c'est comme vous voulez si vous etes un Git commande fan 🙈 )
