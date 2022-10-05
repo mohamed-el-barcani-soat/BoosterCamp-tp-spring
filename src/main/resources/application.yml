@@ -1,9 +1,14 @@
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  main:
+    allow-circular-references: true
   jpa:
     database: POSTGRESQL
     show-sql: true
   application:
-    name: cars
+    name: anti-gaspi
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/antigaspi
@@ -14,6 +19,8 @@ spring:
     validate-on-migrate: true
     locations: classpath:db/migration
     table: flyway
-
+senGrid:
+  enabled: true
+  send-grid-api-key: SENDGRID_API_KEY
 server:
   port: 8081
