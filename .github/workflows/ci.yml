@@ -27,4 +27,4 @@ jobs:
     - name: Run PostgreSQL
       run: docker compose up -d
     - name: Wait for Database to be up...
-      run: wget -qO- https://raw.githubusercontent.com/eficode/wait-for/$WAIT_FOR_VERSION/wait-for | sh -s -- localhost:5432 -- echo "Database is up"
+      run: wget -qO- https://raw.githubusercontent.com/eficode/wait-for/$WAIT_FOR_VERSION/wait-for | sh -s -- localhost:5432 -- echo "Database is up" 
